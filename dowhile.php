@@ -7,7 +7,7 @@ do{
     echo $hewan[$i] . "<br>";
     $i++;
 
-}while($i < count($hewan));
+}while( $i < count($hewan));
 
 
 ?>

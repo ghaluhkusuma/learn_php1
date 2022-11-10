@@ -8,9 +8,9 @@
 </head>
 <body>
     <?php
-    function print_text($text){
+    function print_text($text, $angka){
 
-        $text = "gedung" . $text;
+        $text = "gedung " . $text . " " . $angka;
 
         echo "------------";
         echo $text;
@@ -20,11 +20,11 @@
         echo "<br>";
     }
 
-    print_text(" koding");
+    print_text("koding", 21);
     jarak();
-    print_text(" perawat");
+    print_text("perawat", 23);
     jarak();
-    print_text(" mengemudi");
+    print_text("mengemudi", 43);
     jarak();
 
     ?>
